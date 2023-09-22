@@ -78,3 +78,16 @@ Portanto, diferentemente de var, quando você usa let, uma variável com o mesmo
 let catName = "Oliver";
 let catSound = "Meow!";
 //---------------------------------
+/*const tem todos os recursos incríveis que o let possui, com a vantagem adicional de que as 
+variáveis ​​declaradas usando const são somente leitura. Eles são um valor constante, o que significa que uma vez 
+que uma variável é atribuída com const, ela não pode ser reatribuída:
+const FAV_PET = "Cats";
+FAV_PET = "Dogs";
+
+*/
+//Lição FreeCodeCamp:
+const FCC = "freeCodeCamp"; // Change this line
+let fact = "is cool!"; // Change this line
+fact = "is awesome!";
+console.log(FCC, fact); // Change this line
+//---------------------------------
