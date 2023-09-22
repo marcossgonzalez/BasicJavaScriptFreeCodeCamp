@@ -51,3 +51,38 @@ const lastName = "Lovelace";
 // Only change code below this line
 lastNameLength = lastName.length;
 //---------------------------------
+// Setup
+let firstLetterOfLastName = "";
+const lastName2 = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName2[0]; // Change this line
+//---------------------------------
+// Setup
+let myStr8 = "Jello World";
+
+// Only change code below this line
+myStr8 = "Hello World"; // Change this line
+// Only change code above this line
+//---------------------------------
+// Setup
+const lastName3 = "Lovelace";
+
+// Only change code below this line
+const thirdLetterOfLastName = lastName3[2]; // Change this line
+//---------------------------------
+//Para obter a última letra de uma string, você pode subtrair uma do comprimento da string.
+//Por exemplo, se const firstName = "Ada", você pode obter o valor da última letra da string usando firstName[firstName.length - 1].
+//---------------------------------
+// Setup
+const lastName4 = "Lovelace";
+
+// Only change code below this line
+const lastLetterOfLastName = lastName4[lastName4.length -1]; // Change this line
+//---------------------------------
+// Setup
+const lastName5 = "Lovelace";
+
+// Only change code below this line
+const secondToLastLetterOfLastName = lastName5[lastName5.length -2]; // Change this line
+//---------------------------------
