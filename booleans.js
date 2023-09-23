@@ -51,3 +51,43 @@ function compareEquality(a, b) {
   
   compareEquality(10, "10");
 //-------------------------------
+//Em JavaScript, você pode determinar o tipo de uma variável ou valor com o operador typeof, da seguinte maneira:
+//Ex: typeof 3; typeof '3';
+//O operador de desigualdade (!=, ! = sem espaço entre os símbolos) é o oposto do operador de igualdade.
+//-------------------------------
+// Setup
+function testNotEqual(val) {
+    if (val!= 99) { // Change this line
+      return "Not Equal";
+    }
+    return "Equal";
+  }
+  
+  testNotEqual(10);
+//-------------------------------
+//O operador de desigualdade estrita (!==) é o oposto lógico do operador de igualdade estrita.
+//-------------------------------
+// Setup
+function testStrictNotEqual(val) {
+    if (val!==17) { // Change this line
+      return "Not Equal";
+    }
+    return "Equal";
+  }
+  
+  testStrictNotEqual(10);
+//-------------------------------
+function testGreaterThan(val) {
+    if (val>100) {  // Change this line
+      return "Over 100";
+    }
+  
+    if (val>10) {  // Change this line
+      return "Over 10";
+    }
+  
+    return "10 or Under";
+  }
+  
+  testGreaterThan(10);
+//-------------------------------
