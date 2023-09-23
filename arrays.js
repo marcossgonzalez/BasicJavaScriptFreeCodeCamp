@@ -37,3 +37,38 @@ const myArray6 = [
 
 // Only change code below this line
 myArray6.push(["dog", 3]);
+//-------------------------------
+//.pop() é usado para retirar um valor do final de um array. Podemos armazenar esse valor exibido atribuindo-o a uma variável. 
+//Em outras palavras, .pop() remove o último elemento de um array e retorna esse elemento.
+//-------------------------------
+// Setup
+const myArray7 = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+let removedFromMyArray = myArray7.pop()
+//-------------------------------
+//pop() sempre remove o último elemento de um array. E se você quiser remover o primeiro?
+//É aí que entra .shift(). Funciona exatamente como .pop(), exceto que remove o primeiro elemento em vez do último.
+//-------------------------------
+// Setup
+const myArray9 = [["John", 23], ["dog", 3]];
+
+// Only change code below this line
+let removedFromMyArray2 = myArray9.shift()
+//-------------------------------
+//.unshift() funciona exatamente como .push(),
+//mas em vez de adicionar o elemento no final do array, unshift() adiciona o elemento no início do array.
+//-------------------------------
+// Setup
+const myArray10 = [["John", 23], ["dog", 3]];
+myArray10.shift();
+
+// Only change code below this line
+myArray10.unshift(["Paul", 35])
+//-------------------------------
+const myList = [["Chocolate Bar", 15]
+,["Chocolate Bar", 15],["Chocolate Bar", 15]
+,["Chocolate Bar", 15]
+,["Chocolate Bar", 15]
+];
+//-------------------------------
