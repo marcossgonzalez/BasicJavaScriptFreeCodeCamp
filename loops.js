@@ -4,13 +4,13 @@ porque ele é executado enquanto uma condição especificada é verdadeira
 e para quando essa condição não é mais verdadeira.*/
 //----------------------------------
 // Setup
-const myArray = [];
+const myArray5 = [];
 
 // Only change code below this line
-let i = 5;
-while (i>=0){
-  myArray.push(i);
-  i--;
+let k = 5;
+while (k>=0){
+  myArray5.push(k);
+  k--;
 }
 //----------------------------------
 /* O tipo mais comum de loop JavaScript é chamado de loop for porque é executado um número específico de vezes.
@@ -60,4 +60,41 @@ for (let i = 0; i < myArr.length; i++){
   total += myArr[i];
 
 }
+//----------------------------------
+function multiplyAll(arr) {
+    let product = 1;
+    // Only change code below this line
+    for (let i = 0; i<arr.length;i++){
+      for (let j = 0; j < arr[i].length; j++){
+        product *= arr[i][j];
+      }
+    }
+    // Only change code above this line
+    return product;
+  }
+  
+  multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+//----------------------------------
+/* O próximo tipo de loop que você aprenderá é chamado de loop do...while. Ele é chamado de loop do
+...while porque primeiro fará uma passagem do código dentro do loop, não importa o que aconteça, 
+e então continuará a executar o loop enquanto a condição especificada é avaliada como verdadeira. 
+Ex: const ourArray = [];
+let i = 0;
+
+do {
+  ourArray.push(i);
+  i++;
+} while (i < 5);
+
+*/
+//----------------------------------
+// Setup
+const myArray = [];
+let i = 10;
+
+// Only change code below this line
+do {
+  myArray.push(i);
+  i++;
+} while( i<11);
 //----------------------------------
