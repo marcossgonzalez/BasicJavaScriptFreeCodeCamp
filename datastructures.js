@@ -35,3 +35,27 @@ function convertToInteger(str) {
   
   convertToInteger("10011");
 //-------------------------------------
+/* O operador condicional, também chamado de operador ternário, pode ser usado como uma expressão if-else de uma linha.
+
+A sintaxe é um ? b: c, onde a é a condição, b é o 
+código a ser executado quando a condição retornar verdadeira e c é o código a ser executado quando a condição retornar falsa.
+Ex: function findGreater(a, b) {
+  return a > b ? "a is greater" : "b is greater or equal";
+}
+
+*/
+//-------------------------------------
+function checkEqual(a, b) {
+    return a === b ? "Equal" : "Not Equal";
+   }
+   
+   checkEqual(1, 2);
+//-------------------------------------
+function checkSign(num) {
+    return (num === 0 ) ? "zero": (num > 0) ? "positive" : "negative";
+  }
+  
+  checkSign(10);
+//-------------------------------------
+
+//-------------------------------------
