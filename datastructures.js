@@ -57,5 +57,31 @@ function checkSign(num) {
   
   checkSign(10);
 //-------------------------------------
-
+// Only change code below this line
+function countdown(n){
+    if (n < 1){
+      return [];
+    } else if(n === -1){
+      return;
+    }else{
+      let countArr = countdown(n - 1);
+      countArr.unshift(n);
+      return countArr;
+    }
+  }
+  console.log(countdown(10))
+  // Only change code above this line
+  
+//-------------------------------------
+function rangeOfNumbers(startNum, endNum) {
+    if (endNum - startNum === 0){
+        return [startNum];
+    }
+    else{
+      let arr = rangeOfNumbers(startNum, endNum - 1);
+      arr.push(endNum);
+      return arr;
+    }
+  };
+  console.log(rangeOfNumbers(2,5))
 //-------------------------------------
